@@ -76,7 +76,9 @@
 # c = int(input())
 # print (a == b and b ==c and a ==c)
 
-# число двузначеное
-x = int(input())
-print(x >= 10 and x <= 99)
+# # число двузначеное
+# x = int(input())
+# print(x >= 10 and x <= 99)
+
+
 
