@@ -80,6 +80,40 @@
 # x = int(input())
 # print(x >= 10 and x <= 99)
 
-print("New Line 22")
+
+# Программа должна обьеденить два названия блюда в одно
+
+# print("Введите название двух блюд: \n")
+# food_name1 = input("Первое блюдо: ")
+# food_name2 = input("Второе блюдо: ")
+# print("Ваше новое невиданное блюдо", food_name1[0:4] + food_name2[2:10])
+
+# щедрый посетитель
+
+# count = int(input("Введите сумму счёта: "))
+# tip_1 = count // 100 * 15
+# tip_2 =count // 100 * 20
+# print(" 15% Чаевых =", tip_1, "\n",
+#       "20% Чаевых =", tip_2,)
+
+# Автодиллер
+
+# car_price = int(input("Введите цену автомобиля: "))
+# tax = car_price // 100 * 13
+# registration = car_price // 100 * 15
+# agent_fee = 50000
+# delivery = 100000
+# finish_price = car_price + tax + registration + agent_fee + delivery
+# print("Цена автомобиля в вашем городе",finish_price)
 
 
+# n = list(map(int, input().split()))
+# n.sort()
+# a = n[0] 1
+# b = n[1] 4
+# c = n[2] 7
+# print((b - a) + (c - b))
+
+
+print('Гвидо', 'Ван', 'Россум', sep='*', end='-')
+print('Основатель', 'Питона', sep='_', end='!')
