@@ -114,6 +114,10 @@
 # c = n[2] 7
 # print((b - a) + (c - b))
 
+# a, b, c = input().split()
+# a = f'''Simvol code {a} is {ord(a)}.'''
+# b = f'''Simvol code {b} is {ord(b)}.'''
+# c = f'''Simvol code {c} is {ord(c)}.'''
+# print(a, b, c, sep="\n")
 
-print('Гвидо', 'Ван', 'Россум', sep='*', end='-')
-print('Основатель', 'Питона', sep='_', end='!')
+a = a
