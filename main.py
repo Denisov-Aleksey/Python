@@ -120,4 +120,31 @@
 # c = f'''Simvol code {c} is {ord(c)}.'''
 # print(a, b, c, sep="\n")
 
-a = a
+# a = input().lower()
+# a = a.replace("o","").replace('e','').replace('a','')
+# a = a.replace('y','').replace('i','').replace('u','')
+# a = list(a)
+# a = ".".join(a)
+# a = "." + a
+# print(a)
+# a, b, c = int(input()), int(input()), int(input())
+# a = hex(a)[2:].upper().zfill(2)
+# b = hex(b)[2:].upper().zfill(2)
+# c = hex(c)[2:].upper().zfill(2)
+# print("#" + a + b + c)
+
+
+# person = input().split()
+# per_name = person[0][0].capitalize() + '.'
+# sur_name = person[2].capitalize()
+# mid_name = person[1][0].capitalize() + '.'
+# text = f'{sur_name} {per_name}{mid_name}'
+# print(text)
+
+# person = input().split()
+# text = f"{person[2]} {person[0][0]}.{person[1][0]}."
+# print(text)
+
+a = input().split()
+b = '\n'.join(a)
+print(b)
